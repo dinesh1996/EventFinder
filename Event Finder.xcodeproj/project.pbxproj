@@ -7,21 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D10A5688EAB0AAD8F93AEC /* Pods_Event_Finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E6A265D10F49B7972F5A66 /* Pods_Event_Finder.framework */; };
+		E40BD0AB2016373500AC92A8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0AA2016373500AC92A8 /* HomePageViewController.swift */; };
+		E40BD0AD2016382E00AC92A8 /* PlaceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0AC2016382E00AC92A8 /* PlaceDetailsViewController.swift */; };
+		E40BD0AF2016385C00AC92A8 /* MapGViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0AE2016385C00AC92A8 /* MapGViewTableViewController.swift */; };
+		E40BD0B12016387A00AC92A8 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0B02016387A00AC92A8 /* AccountViewController.swift */; };
+		E40BD0B32016389900AC92A8 /* BarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0B22016389900AC92A8 /* BarListViewController.swift */; };
+		E40BD0B5201638CF00AC92A8 /* NewNightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0B4201638CF00AC92A8 /* NewNightViewController.swift */; };
+		E40BD0B7201638E400AC92A8 /* NightFriendDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0B6201638E400AC92A8 /* NightFriendDetailsViewController.swift */; };
+		E40BD0B9201638FB00AC92A8 /* NightFriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0B8201638FB00AC92A8 /* NightFriendListTableViewController.swift */; };
+		E40BD0BB2016391700AC92A8 /* FriendDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0BA2016391700AC92A8 /* FriendDetailsViewController.swift */; };
+		E40BD0BD2016392E00AC92A8 /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0BC2016392E00AC92A8 /* FriendsListTableViewController.swift */; };
+		E40BD0BF2016394700AC92A8 /* NightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0BE2016394700AC92A8 /* NightDetailsViewController.swift */; };
+		E40BD0C12016395E00AC92A8 /* NightListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0C02016395E00AC92A8 /* NightListTableViewController.swift */; };
+		E40BD0C32016397A00AC92A8 /* NightInfoBarListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0C22016397A00AC92A8 /* NightInfoBarListTableViewController.swift */; };
+		E40BD0C52016398F00AC92A8 /* NightInfoFriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0C42016398F00AC92A8 /* NightInfoFriendListTableViewController.swift */; };
+		E40BD0D020163AC000AC92A8 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0CF20163AC000AC92A8 /* Bar.swift */; };
+		E40BD0D220163AE400AC92A8 /* BarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0D120163AE400AC92A8 /* BarList.swift */; };
+		E40BD0D820163B5C00AC92A8 /* GeopointB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BD0D720163B5C00AC92A8 /* GeopointB.swift */; };
+		E40BD0DE20163F2200AC92A8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40BD0DB20163F2000AC92A8 /* FBSDKCoreKit.framework */; };
+		E40BD0DF20163F2200AC92A8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40BD0DC20163F2100AC92A8 /* FBSDKLoginKit.framework */; };
+		E40BD0E020163F2200AC92A8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40BD0DD20163F2200AC92A8 /* Bolts.framework */; };
 		E4347C11201622C40034D87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4347C10201622C40034D87A /* AppDelegate.swift */; };
-		E4347C13201622C40034D87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4347C12201622C40034D87A /* ViewController.swift */; };
-		E4347C16201622C40034D87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4347C14201622C40034D87A /* Main.storyboard */; };
 		E4347C18201622C40034D87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4347C17201622C40034D87A /* Assets.xcassets */; };
 		E4347C1B201622C40034D87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4347C19201622C40034D87A /* LaunchScreen.storyboard */; };
+		E4347C25201624680034D87A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4347C24201624670034D87A /* GoogleService-Info.plist */; };
+		E4347C36201627A10034D87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4347C35201627A10034D87A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14F53060F9C3220EED2B497D /* Pods-Event Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Event Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Event Finder/Pods-Event Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		32E6A265D10F49B7972F5A66 /* Pods_Event_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Event_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949B0E0B57CCCFE0D7802FE0 /* Pods-Event Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Event Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Event Finder/Pods-Event Finder.release.xcconfig"; sourceTree = "<group>"; };
+		E40BD0AA2016373500AC92A8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		E40BD0AC2016382E00AC92A8 /* PlaceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsViewController.swift; sourceTree = "<group>"; };
+		E40BD0AE2016385C00AC92A8 /* MapGViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGViewTableViewController.swift; sourceTree = "<group>"; };
+		E40BD0B02016387A00AC92A8 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		E40BD0B22016389900AC92A8 /* BarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarListViewController.swift; sourceTree = "<group>"; };
+		E40BD0B4201638CF00AC92A8 /* NewNightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNightViewController.swift; sourceTree = "<group>"; };
+		E40BD0B6201638E400AC92A8 /* NightFriendDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightFriendDetailsViewController.swift; sourceTree = "<group>"; };
+		E40BD0B8201638FB00AC92A8 /* NightFriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightFriendListTableViewController.swift; sourceTree = "<group>"; };
+		E40BD0BA2016391700AC92A8 /* FriendDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailsViewController.swift; sourceTree = "<group>"; };
+		E40BD0BC2016392E00AC92A8 /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
+		E40BD0BE2016394700AC92A8 /* NightDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightDetailsViewController.swift; sourceTree = "<group>"; };
+		E40BD0C02016395E00AC92A8 /* NightListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightListTableViewController.swift; sourceTree = "<group>"; };
+		E40BD0C22016397A00AC92A8 /* NightInfoBarListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightInfoBarListTableViewController.swift; sourceTree = "<group>"; };
+		E40BD0C42016398F00AC92A8 /* NightInfoFriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightInfoFriendListTableViewController.swift; sourceTree = "<group>"; };
+		E40BD0CF20163AC000AC92A8 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		E40BD0D120163AE400AC92A8 /* BarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarList.swift; sourceTree = "<group>"; };
+		E40BD0D720163B5C00AC92A8 /* GeopointB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeopointB.swift; sourceTree = "<group>"; };
+		E40BD0DB20163F2000AC92A8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E40BD0DC20163F2100AC92A8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E40BD0DD20163F2200AC92A8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		E4347C0D201622C40034D87A /* Event Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4347C10201622C40034D87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4347C12201622C40034D87A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4347C15201622C40034D87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4347C17201622C40034D87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4347C1A201622C40034D87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4347C1C201622C40034D87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4347C24201624670034D87A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4347C262016268B0034D87A /* Event Finder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Event Finder.entitlements"; sourceTree = "<group>"; };
+		E4347C35201627A10034D87A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40BD0E020163F2200AC92A8 /* Bolts.framework in Frameworks */,
+				E40BD0DF20163F2200AC92A8 /* FBSDKLoginKit.framework in Frameworks */,
+				E40BD0DE20163F2200AC92A8 /* FBSDKCoreKit.framework in Frameworks */,
+				06D10A5688EAB0AAD8F93AEC /* Pods_Event_Finder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C505390AC76660648B97BAC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD0DD20163F2200AC92A8 /* Bolts.framework */,
+				E40BD0DB20163F2000AC92A8 /* FBSDKCoreKit.framework */,
+				E40BD0DC20163F2100AC92A8 /* FBSDKLoginKit.framework */,
+				32E6A265D10F49B7972F5A66 /* Pods_Event_Finder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2CD4864E66A22BB9A457E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14F53060F9C3220EED2B497D /* Pods-Event Finder.debug.xcconfig */,
+				949B0E0B57CCCFE0D7802FE0 /* Pods-Event Finder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E40BD0CD20163A9D00AC92A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD0D320163B2500AC92A8 /* User */,
+				E40BD0CE20163AAF00AC92A8 /* Bar */,
+				E40BD0D120163AE400AC92A8 /* BarList.swift */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E40BD0CE20163AAF00AC92A8 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD0CF20163AC000AC92A8 /* Bar.swift */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		E40BD0D320163B2500AC92A8 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD0D420163B3200AC92A8 /* Info */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E40BD0D420163B3200AC92A8 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD0D620163B4D00AC92A8 /* Name */,
+				E40BD0D520163B4300AC92A8 /* Geopoint */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		E40BD0D520163B4300AC92A8 /* Geopoint */ = {
+			isa = PBXGroup;
+			children = (
+				E40BD0D720163B5C00AC92A8 /* GeopointB.swift */,
+			);
+			path = Geopoint;
+			sourceTree = "<group>";
+		};
+		E40BD0D620163B4D00AC92A8 /* Name */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
 		E4347C04201622C40034D87A = {
 			isa = PBXGroup;
 			children = (
 				E4347C0F201622C40034D87A /* Event Finder */,
 				E4347C0E201622C40034D87A /* Products */,
+				CE2CD4864E66A22BB9A457E3 /* Pods */,
+				C505390AC76660648B97BAC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +176,28 @@
 		E4347C0F201622C40034D87A /* Event Finder */ = {
 			isa = PBXGroup;
 			children = (
+				E40BD0CD20163A9D00AC92A8 /* Models */,
+				E4347C262016268B0034D87A /* Event Finder.entitlements */,
 				E4347C10201622C40034D87A /* AppDelegate.swift */,
-				E4347C12201622C40034D87A /* ViewController.swift */,
-				E4347C14201622C40034D87A /* Main.storyboard */,
 				E4347C17201622C40034D87A /* Assets.xcassets */,
 				E4347C19201622C40034D87A /* LaunchScreen.storyboard */,
+				E4347C35201627A10034D87A /* Main.storyboard */,
+				E4347C24201624670034D87A /* GoogleService-Info.plist */,
 				E4347C1C201622C40034D87A /* Info.plist */,
+				E40BD0AA2016373500AC92A8 /* HomePageViewController.swift */,
+				E40BD0AC2016382E00AC92A8 /* PlaceDetailsViewController.swift */,
+				E40BD0AE2016385C00AC92A8 /* MapGViewTableViewController.swift */,
+				E40BD0B02016387A00AC92A8 /* AccountViewController.swift */,
+				E40BD0B22016389900AC92A8 /* BarListViewController.swift */,
+				E40BD0B4201638CF00AC92A8 /* NewNightViewController.swift */,
+				E40BD0B6201638E400AC92A8 /* NightFriendDetailsViewController.swift */,
+				E40BD0B8201638FB00AC92A8 /* NightFriendListTableViewController.swift */,
+				E40BD0BA2016391700AC92A8 /* FriendDetailsViewController.swift */,
+				E40BD0BC2016392E00AC92A8 /* FriendsListTableViewController.swift */,
+				E40BD0BE2016394700AC92A8 /* NightDetailsViewController.swift */,
+				E40BD0C02016395E00AC92A8 /* NightListTableViewController.swift */,
+				E40BD0C22016397A00AC92A8 /* NightInfoBarListTableViewController.swift */,
+				E40BD0C42016398F00AC92A8 /* NightInfoFriendListTableViewController.swift */,
 			);
 			path = "Event Finder";
 			sourceTree = "<group>";
@@ -71,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4347C1F201622C40034D87A /* Build configuration list for PBXNativeTarget "Event Finder" */;
 			buildPhases = (
+				4FF3DC8A8C3604A56E3F4999 /* [CP] Check Pods Manifest.lock */,
 				E4347C09201622C40034D87A /* Sources */,
 				E4347C0A201622C40034D87A /* Frameworks */,
 				E4347C0B201622C40034D87A /* Resources */,
+				35CD3EF217D4F7BF73E69105 /* [CP] Embed Pods Frameworks */,
+				D476BAC3991896F8936795BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +238,11 @@
 					E4347C0C201622C40034D87A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,18 +271,118 @@
 			files = (
 				E4347C1B201622C40034D87A /* LaunchScreen.storyboard in Resources */,
 				E4347C18201622C40034D87A /* Assets.xcassets in Resources */,
-				E4347C16201622C40034D87A /* Main.storyboard in Resources */,
+				E4347C25201624680034D87A /* GoogleService-Info.plist in Resources */,
+				E4347C36201627A10034D87A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35CD3EF217D4F7BF73E69105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Event Finder/Pods-Event Finder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Event Finder/Pods-Event Finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FF3DC8A8C3604A56E3F4999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Event Finder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D476BAC3991896F8936795BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Event Finder/Pods-Event Finder-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Event Finder/Pods-Event Finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4347C09201622C40034D87A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4347C13201622C40034D87A /* ViewController.swift in Sources */,
+				E40BD0B9201638FB00AC92A8 /* NightFriendListTableViewController.swift in Sources */,
+				E40BD0D220163AE400AC92A8 /* BarList.swift in Sources */,
+				E40BD0B7201638E400AC92A8 /* NightFriendDetailsViewController.swift in Sources */,
+				E40BD0C12016395E00AC92A8 /* NightListTableViewController.swift in Sources */,
+				E40BD0AD2016382E00AC92A8 /* PlaceDetailsViewController.swift in Sources */,
+				E40BD0BB2016391700AC92A8 /* FriendDetailsViewController.swift in Sources */,
+				E40BD0C52016398F00AC92A8 /* NightInfoFriendListTableViewController.swift in Sources */,
+				E40BD0BF2016394700AC92A8 /* NightDetailsViewController.swift in Sources */,
+				E40BD0B12016387A00AC92A8 /* AccountViewController.swift in Sources */,
+				E40BD0BD2016392E00AC92A8 /* FriendsListTableViewController.swift in Sources */,
+				E40BD0D020163AC000AC92A8 /* Bar.swift in Sources */,
+				E40BD0B32016389900AC92A8 /* BarListViewController.swift in Sources */,
+				E40BD0AF2016385C00AC92A8 /* MapGViewTableViewController.swift in Sources */,
+				E40BD0D820163B5C00AC92A8 /* GeopointB.swift in Sources */,
+				E40BD0AB2016373500AC92A8 /* HomePageViewController.swift in Sources */,
+				E40BD0B5201638CF00AC92A8 /* NewNightViewController.swift in Sources */,
+				E40BD0C32016397A00AC92A8 /* NightInfoBarListTableViewController.swift in Sources */,
 				E4347C11201622C40034D87A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +390,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4347C14201622C40034D87A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4347C15201622C40034D87A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4347C19201622C40034D87A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,14 +510,23 @@
 		};
 		E4347C20201622C40034D87A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F53060F9C3220EED2B497D /* Pods-Event Finder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Event Finder/Event Finder.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XN3455LV2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Event Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Exanity.Event-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +534,23 @@
 		};
 		E4347C21201622C40034D87A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949B0E0B57CCCFE0D7802FE0 /* Pods-Event Finder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Event Finder/Event Finder.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XN3455LV2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Event Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Exanity.Event-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
